@@ -278,7 +278,7 @@ BOOL freerdp_settings_set_default_order_support(rdpSettings* settings)
 	ZeroMemory(settings->OrderSupport, 32);
 	settings->OrderSupport[NEG_DSTBLT_INDEX] = TRUE;
 	settings->OrderSupport[NEG_PATBLT_INDEX] = TRUE;
-	settings->OrderSupport[NEG_SCRBLT_INDEX] = TRUE;
+	settings->OrderSupport[NEG_SCRBLT_INDEX] = FALSE;
 	settings->OrderSupport[NEG_OPAQUE_RECT_INDEX] = TRUE;
 	settings->OrderSupport[NEG_DRAWNINEGRID_INDEX] = FALSE;
 	settings->OrderSupport[NEG_MULTIDSTBLT_INDEX] = FALSE;
